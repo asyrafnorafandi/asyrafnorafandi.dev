@@ -1,8 +1,23 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
+import localFont from 'next/font/local'
+import { Providers } from '@/app/providers'
+import clsx from 'clsx'
 
-const inter = Inter({ subsets: ['latin'] })
+import '@/styles/tailwind.css'
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
+
+const monaSans = localFont({
+  src: '../fonts/Mona-Sans.var.woff2',
+  display: 'swap',
+  variable: '--font-mona-sans',
+  weight: '200 900',
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +30,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html
+      lang="en"
+      className={clsx('h-full antialiased', inter.variable, monaSans.variable)}
+      suppressHydrationWarning
+    >
+      <body className="flex min-h-full flex-col bg-white dark:bg-gray-950">
+        <Providers>{children}</Providers>
+      </body>
     </html>
   )
 }
