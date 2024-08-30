@@ -1,6 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <br />
+    <a href="https://astar.network/" target="_blank">
+      <img src="./docs/resume-site.png" alt="Project Banner">
+    </a>
+  <br />
 
-## Getting Started
+  <div>
+    <img src="https://img.shields.io/badge/-NextJS-black?style=for-the-badge&logoColor=white&logo=next.js&color=000000" alt="nextjs" />
+    <img src="https://img.shields.io/badge/-TailwindCSS-black?style=for-the-badge&logoColor=sky&logo=tailwindcss&color=ffffff" alt="jinja" />
+  </div>
+</div>
+
+## 📋 Table of Contents
+
+[![Check NextJs build](https://github.com/asyrafnorafandi/asyrafnorafandi.dev/actions/workflows/tests.yml/badge.svg)](https://github.com/asyrafnorafandi/asyrafnorafandi.dev/actions/workflows/tests.yml)
+
+1. 🚀 [Quick Start](#quick-start)
+2. 📜 [License](#license)
+3. 🧐 [Author Information](#author)
+
+## 🚀 <a name="quick-start">Quick Start</a>
 
 First, run the development server:
 
@@ -20,17 +39,10 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 📜 <a name="license">License</a>
 
-To learn more about Next.js, take a look at the following resources:
+MIT / BSD
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧐 <a name="author">Author Information</a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This website was created in 2024 by [Asyraf Norafandi](https://www.github.com/asyrafnorafandi)
