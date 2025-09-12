@@ -2,7 +2,46 @@ import ExperienceCard from "@/components/experience-card";
 
 const experiences = [
   {
-    timeline: "Jan 2021 — Present",
+    timeline: "Nov 2024 — Present",
+    title: "Senior DevOps Engineer",
+    company: "Gelato Digital",
+    link: "https://gelato.cloud",
+    description: `Rollup as a Service (RaaS)
+    - Maintained core Optimism stack components (op-node, op-geth, op-reth, op-batcher, op-proposer, and rollup contracts) in production, ensuring high availability and scalability of Layer 2 blockchain infrastructure.
+    - Operated and maintained Arbitrum stack components (sequencer, validator, relayer, and bridge contracts) to support reliable and scalable Layer 2 blockchain networks.
+    - Developed custom Kubernetes Operators in Go to automate blockchain scaling, snapshots, and backups, eliminating >80% of manual intervention.
+    - Built observability platforms for blockchain networks with Prometheus, Grafana, and Datadog, reducing mean-time-to-detect (MTTD) by ~35%.
+    - Handled incident response with PagerDuty, reducing mean-time-to-recover (MTTR) by ~45% through proactive runbooks and automation.
+    - Maintained highly available, multi-cloud infrastructure (GCP, AWS, Cloudflare) supporting blockchain services with 99.99% uptime using Terraform.
+    - Operated and maintained production-grade Kubernetes clusters, ensuring smooth upgrades, workload scaling, and zero-downtime rollouts.
+    - Implemented HashiCorp Vault for secret management.
+    - Designed and optimized CI/CD pipelines with GitHub Actions and Octopus Deploy, cutting deployment times significantly
+    - Established cost monitoring with Kubecost, optimizing Kubernetes workloads and achieving ~20% monthly cloud spend reduction.
+    - Strengthened security posture of private Kubernetes clusters, integrating SAST in CI/CD and reducing vulnerability exposure
+    `,
+    technologies: [
+      "Terraform",
+      "GCP",
+      "Web3",
+      "Optimism",
+      "Arbitrum",
+      "Cloudflare",
+      "Kubernetes",
+      "Docker",
+      "Datadog",
+      "Prometheus",
+      "Grafana",
+      "Blockscout",
+      "Hashicorp Vault",
+      "Github Actions",
+      "Octopus Deploy",
+      "Kubecost",
+      "PostgreSQL",
+      "Redis",
+    ],
+  },
+  {
+    timeline: "Jan 2021 — Nov 2024",
     title: "Senior DevOps Engineer",
     company: "Cake Group / Defichain",
     link: "https://bake.io",
